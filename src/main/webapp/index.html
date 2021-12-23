@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Matheus">
+        <meta name="description" content="Html5 é a nova do mommento.">
+        <meta name="keywords" content="html5">
+        <style>
+            .form-login{
+                width: 500px;
+                margin: auto;
+                background: #ccc;
+                padding: 10px;
+            }
+            .form-login input{
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .btn{
+                padding: 5px;
+                margin: 10px 0 2px;
+            }
+            .form-login input:focus{
+                background: #ccc;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="login" method="post" class="form-login">
+            <fieldset>
+                <legend>Login</legend>
+
+                <label for="user">Usuario</label>
+                <input type="text" id="user" name="user">
+
+                <label for="pass">Senha</label>
+                <input type="text" id="pass" name="pass">
+
+                <input type="submit" value="Logar" class="btn">
+            </fieldset>
+        </form>
+    </body>
+</html>
